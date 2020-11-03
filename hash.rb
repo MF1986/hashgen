@@ -25,7 +25,7 @@ elsif menu == "2"
   puts "#{Digest::SHA256.hexdigest (txt)}"
 elsif menu == "3"
   puts "#{Digest::SHA512.hexdigest (txt)}"
-elsif menu = "4"
+elsif menu == "4"
   puts "#{Digest::MD5.hexdigest (txt)}"
   else
 end
